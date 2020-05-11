@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"gogs.io/gogs/internal/db/errors"
-	"gogs.io/gogs/internal/errutil"
+	"github.com/savvi-ai/gogs/internal/db/errors"
+	"github.com/savvi-ai/gogs/internal/errutil"
 )
 
 // EmailAddresses is the list of all email addresses of a user. Can contain the

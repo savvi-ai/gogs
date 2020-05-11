@@ -16,8 +16,8 @@ import (
 	"xorm.io/core"
 	"xorm.io/xorm"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/osutil"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/osutil"
 )
 
 // getTableType returns the type name of a table definition without package name,

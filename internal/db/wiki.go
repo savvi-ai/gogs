@@ -17,8 +17,8 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/sync"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/sync"
 )
 
 var wikiWorkingPool = sync.NewExclusivePool()

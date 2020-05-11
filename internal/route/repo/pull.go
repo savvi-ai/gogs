@@ -14,11 +14,11 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/db"
-	"gogs.io/gogs/internal/form"
-	"gogs.io/gogs/internal/gitutil"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/form"
+	"github.com/savvi-ai/gogs/internal/gitutil"
 )
 
 const (

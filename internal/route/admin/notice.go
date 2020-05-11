@@ -11,9 +11,9 @@ import (
 	"github.com/unknwon/paginater"
 	log "unknwon.dev/clog/v2"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/db"
 )
 
 const (

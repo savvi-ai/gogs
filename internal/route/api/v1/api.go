@@ -13,14 +13,14 @@ import (
 
 	api "github.com/gogs/go-gogs-client"
 
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/db"
-	"gogs.io/gogs/internal/form"
-	"gogs.io/gogs/internal/route/api/v1/admin"
-	"gogs.io/gogs/internal/route/api/v1/misc"
-	"gogs.io/gogs/internal/route/api/v1/org"
-	"gogs.io/gogs/internal/route/api/v1/repo"
-	"gogs.io/gogs/internal/route/api/v1/user"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/form"
+	"github.com/savvi-ai/gogs/internal/route/api/v1/admin"
+	"github.com/savvi-ai/gogs/internal/route/api/v1/misc"
+	"github.com/savvi-ai/gogs/internal/route/api/v1/org"
+	"github.com/savvi-ai/gogs/internal/route/api/v1/repo"
+	"github.com/savvi-ai/gogs/internal/route/api/v1/user"
 )
 
 // repoAssignment extracts information from URL parameters to retrieve the repository,

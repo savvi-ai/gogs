@@ -13,7 +13,7 @@ import (
 	log "unknwon.dev/clog/v2"
 	"xorm.io/xorm"
 
-	"gogs.io/gogs/internal/strutil"
+	"github.com/savvi-ai/gogs/internal/strutil"
 )
 
 const _MIN_DB_VER = 10
@@ -102,9 +102,9 @@ You can migrate your older database using a previous release, then you can upgra
 Please save following instructions to somewhere and start working:
 
 - If you were using below 0.6.0 (e.g. 0.5.x), download last supported archive from following link:
-	https://gogs.io/gogs/releases/tag/v0.7.33
+	https://github.com/savvi-ai/gogs/releases/tag/v0.7.33
 - If you were using below 0.7.0 (e.g. 0.6.x), download last supported archive from following link:
-	https://gogs.io/gogs/releases/tag/v0.9.141
+	https://github.com/savvi-ai/gogs/releases/tag/v0.9.141
 
 Once finished downloading,
 

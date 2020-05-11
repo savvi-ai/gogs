@@ -11,7 +11,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"gogs.io/gogs/internal/osutil"
+	"github.com/savvi-ai/gogs/internal/osutil"
 )
 
 var ErrObjectNotExist = errors.New("Object does not exist")

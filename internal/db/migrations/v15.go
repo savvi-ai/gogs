@@ -15,8 +15,8 @@ import (
 	log "unknwon.dev/clog/v2"
 	"xorm.io/xorm"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/osutil"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/osutil"
 )
 
 func generateAndMigrateGitHooks(x *xorm.Engine) (err error) {

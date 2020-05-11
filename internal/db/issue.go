@@ -15,10 +15,10 @@ import (
 
 	api "github.com/gogs/go-gogs-client"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/db/errors"
-	"gogs.io/gogs/internal/errutil"
-	"gogs.io/gogs/internal/tool"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/db/errors"
+	"github.com/savvi-ai/gogs/internal/errutil"
+	"github.com/savvi-ai/gogs/internal/tool"
 )
 
 var (

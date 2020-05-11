@@ -11,10 +11,10 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/gitutil"
-	"gogs.io/gogs/internal/tool"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/gitutil"
+	"github.com/savvi-ai/gogs/internal/tool"
 )
 
 func serveData(c *context.Context, name string, data []byte) error {

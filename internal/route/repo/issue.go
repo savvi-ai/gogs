@@ -15,13 +15,13 @@ import (
 	"github.com/unknwon/paginater"
 	log "unknwon.dev/clog/v2"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/db"
-	"gogs.io/gogs/internal/db/errors"
-	"gogs.io/gogs/internal/form"
-	"gogs.io/gogs/internal/markup"
-	"gogs.io/gogs/internal/tool"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/db/errors"
+	"github.com/savvi-ai/gogs/internal/form"
+	"github.com/savvi-ai/gogs/internal/markup"
+	"github.com/savvi-ai/gogs/internal/tool"
 )
 
 const (

@@ -11,7 +11,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"gogs.io/gogs/internal/errutil"
+	"github.com/savvi-ai/gogs/internal/errutil"
 )
 
 // ReposStore is the persistent interface for repositories.

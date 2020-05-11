@@ -13,7 +13,7 @@ import (
 	"xorm.io/builder"
 	"xorm.io/xorm"
 
-	"gogs.io/gogs/internal/errutil"
+	"github.com/savvi-ai/gogs/internal/errutil"
 )
 
 var (

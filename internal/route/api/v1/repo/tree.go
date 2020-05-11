@@ -9,8 +9,8 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/gitutil"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/gitutil"
 )
 
 func GetRepoGitTree(c *context.APIContext) {

@@ -12,8 +12,8 @@ import (
 	"github.com/gogs/git-module"
 	"github.com/pkg/errors"
 
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/gitutil"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/gitutil"
 )
 
 func GetContents(c *context.APIContext) {

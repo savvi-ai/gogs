@@ -29,15 +29,15 @@ import (
 	"github.com/gogs/git-module"
 	api "github.com/gogs/go-gogs-client"
 
-	"gogs.io/gogs/internal/avatar"
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/db/errors"
-	"gogs.io/gogs/internal/errutil"
-	"gogs.io/gogs/internal/markup"
-	"gogs.io/gogs/internal/osutil"
-	"gogs.io/gogs/internal/process"
-	"gogs.io/gogs/internal/semverutil"
-	"gogs.io/gogs/internal/sync"
+	"github.com/savvi-ai/gogs/internal/avatar"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/db/errors"
+	"github.com/savvi-ai/gogs/internal/errutil"
+	"github.com/savvi-ai/gogs/internal/markup"
+	"github.com/savvi-ai/gogs/internal/osutil"
+	"github.com/savvi-ai/gogs/internal/process"
+	"github.com/savvi-ai/gogs/internal/semverutil"
+	"github.com/savvi-ai/gogs/internal/sync"
 )
 
 // REPO_AVATAR_URL_PREFIX is used to identify a URL is to access repository avatar.

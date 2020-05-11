@@ -10,9 +10,9 @@ import (
 	"github.com/unknwon/com"
 	log "unknwon.dev/clog/v2"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/email"
-	"gogs.io/gogs/internal/markup"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/email"
+	"github.com/savvi-ai/gogs/internal/markup"
 )
 
 func (issue *Issue) MailSubject() string {

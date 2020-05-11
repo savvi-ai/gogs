@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gogs.io/gogs/internal/errutil"
+	"github.com/savvi-ai/gogs/internal/errutil"
 )
 
 func Test_loginSourceFiles_GetByID(t *testing.T) {

@@ -22,12 +22,12 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/cryptoutil"
-	"gogs.io/gogs/internal/db"
-	"gogs.io/gogs/internal/gitutil"
-	"gogs.io/gogs/internal/markup"
-	"gogs.io/gogs/internal/tool"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/cryptoutil"
+	"github.com/savvi-ai/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/gitutil"
+	"github.com/savvi-ai/gogs/internal/markup"
+	"github.com/savvi-ai/gogs/internal/tool"
 )
 
 var (

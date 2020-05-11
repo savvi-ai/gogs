@@ -5,7 +5,7 @@
 package context
 
 import (
-	"gogs.io/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/db"
 )
 
 type APIOrganization struct {

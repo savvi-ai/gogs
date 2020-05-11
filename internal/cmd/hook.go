@@ -21,10 +21,10 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/db"
-	"gogs.io/gogs/internal/email"
-	"gogs.io/gogs/internal/httplib"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/email"
+	"github.com/savvi-ai/gogs/internal/httplib"
 )
 
 var (

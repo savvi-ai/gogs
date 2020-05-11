@@ -10,8 +10,8 @@ import (
 	api "github.com/gogs/go-gogs-client"
 	"github.com/unknwon/com"
 
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/db"
 )
 
 func ListLabels(c *context.APIContext) {

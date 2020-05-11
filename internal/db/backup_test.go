@@ -14,9 +14,9 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
 
-	"gogs.io/gogs/internal/cryptoutil"
-	"gogs.io/gogs/internal/lfsutil"
-	"gogs.io/gogs/internal/testutil"
+	"github.com/savvi-ai/gogs/internal/cryptoutil"
+	"github.com/savvi-ai/gogs/internal/lfsutil"
+	"github.com/savvi-ai/gogs/internal/testutil"
 )
 
 func Test_dumpAndImport(t *testing.T) {

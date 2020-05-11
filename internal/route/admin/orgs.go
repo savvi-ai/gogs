@@ -5,10 +5,10 @@
 package admin
 
 import (
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/db"
-	"gogs.io/gogs/internal/route"
-	"gogs.io/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/route"
+	"github.com/savvi-ai/gogs/internal/conf"
 )
 
 const (

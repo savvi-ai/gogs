@@ -20,12 +20,12 @@ import (
 	"gopkg.in/macaron.v1"
 	log "unknwon.dev/clog/v2"
 
-	"gogs.io/gogs/internal/auth"
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/db"
-	"gogs.io/gogs/internal/errutil"
-	"gogs.io/gogs/internal/form"
-	"gogs.io/gogs/internal/template"
+	"github.com/savvi-ai/gogs/internal/auth"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/errutil"
+	"github.com/savvi-ai/gogs/internal/form"
+	"github.com/savvi-ai/gogs/internal/template"
 )
 
 // Context represents context of a request.

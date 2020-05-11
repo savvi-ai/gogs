@@ -18,17 +18,17 @@ import (
 	"gopkg.in/macaron.v1"
 	log "unknwon.dev/clog/v2"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/cron"
-	"gogs.io/gogs/internal/db"
-	"gogs.io/gogs/internal/email"
-	"gogs.io/gogs/internal/form"
-	"gogs.io/gogs/internal/markup"
-	"gogs.io/gogs/internal/osutil"
-	"gogs.io/gogs/internal/ssh"
-	"gogs.io/gogs/internal/strutil"
-	"gogs.io/gogs/internal/template/highlight"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/cron"
+	"github.com/savvi-ai/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/email"
+	"github.com/savvi-ai/gogs/internal/form"
+	"github.com/savvi-ai/gogs/internal/markup"
+	"github.com/savvi-ai/gogs/internal/osutil"
+	"github.com/savvi-ai/gogs/internal/ssh"
+	"github.com/savvi-ai/gogs/internal/strutil"
+	"github.com/savvi-ai/gogs/internal/template/highlight"
 )
 
 const (

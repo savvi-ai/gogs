@@ -17,10 +17,10 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/db/errors"
-	"gogs.io/gogs/internal/process"
-	"gogs.io/gogs/internal/sync"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/db/errors"
+	"github.com/savvi-ai/gogs/internal/process"
+	"github.com/savvi-ai/gogs/internal/sync"
 )
 
 var MirrorQueue = sync.NewUniqueQueue(1000)

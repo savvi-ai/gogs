@@ -10,11 +10,11 @@ import (
 	api "github.com/gogs/go-gogs-client"
 	"github.com/pkg/errors"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/context"
-	"gogs.io/gogs/internal/db"
-	"gogs.io/gogs/internal/route/api/v1/convert"
-	"gogs.io/gogs/internal/route/api/v1/repo"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/context"
+	"github.com/savvi-ai/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/route/api/v1/convert"
+	"github.com/savvi-ai/gogs/internal/route/api/v1/repo"
 )
 
 func GetUserByParamsName(c *context.APIContext, name string) *db.User {

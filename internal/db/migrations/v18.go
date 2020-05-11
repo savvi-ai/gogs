@@ -9,7 +9,7 @@ import (
 
 	"xorm.io/xorm"
 
-	"gogs.io/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/conf"
 )
 
 func updateRepositoryDescriptionField(x *xorm.Engine) error {

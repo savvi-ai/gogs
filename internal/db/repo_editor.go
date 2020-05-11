@@ -21,13 +21,13 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"gogs.io/gogs/internal/conf"
-	"gogs.io/gogs/internal/cryptoutil"
-	"gogs.io/gogs/internal/db/errors"
-	"gogs.io/gogs/internal/gitutil"
-	"gogs.io/gogs/internal/osutil"
-	"gogs.io/gogs/internal/process"
-	"gogs.io/gogs/internal/tool"
+	"github.com/savvi-ai/gogs/internal/conf"
+	"github.com/savvi-ai/gogs/internal/cryptoutil"
+	"github.com/savvi-ai/gogs/internal/db/errors"
+	"github.com/savvi-ai/gogs/internal/gitutil"
+	"github.com/savvi-ai/gogs/internal/osutil"
+	"github.com/savvi-ai/gogs/internal/process"
+	"github.com/savvi-ai/gogs/internal/tool"
 )
 
 const (
@@ -487,7 +487,7 @@ func (repo *Repository) UploadRepoFiles(doer *User, opts UploadRepoFileOptions) 
 			continue
 		}
 
-		// Prevent copying files into .git directory, see https://gogs.io/gogs/issues/5558.
+		// Prevent copying files into .git directory, see https://github.com/savvi-ai/gogs/issues/5558.
 		if isRepositoryGitPath(upload.Name) {
 			continue
 		}

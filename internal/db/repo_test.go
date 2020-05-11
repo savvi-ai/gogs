@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gogs.io/gogs/internal/markup"
+	"github.com/savvi-ai/gogs/internal/markup"
 )
 
 func TestRepository_ComposeMetas(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/stretchr/testify/assert"
 
-	"gogs.io/gogs/internal/errutil"
+	"github.com/savvi-ai/gogs/internal/errutil"
 )
 
 func TestLoginSource_BeforeSave(t *testing.T) {

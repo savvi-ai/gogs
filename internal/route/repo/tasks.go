@@ -10,8 +10,8 @@ import (
 	"gopkg.in/macaron.v1"
 	log "unknwon.dev/clog/v2"
 
-	"gogs.io/gogs/internal/cryptoutil"
-	"gogs.io/gogs/internal/db"
+	"github.com/savvi-ai/gogs/internal/cryptoutil"
+	"github.com/savvi-ai/gogs/internal/db"
 )
 
 func TriggerTask(c *macaron.Context) {

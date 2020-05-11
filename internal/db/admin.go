@@ -14,7 +14,7 @@ import (
 	log "unknwon.dev/clog/v2"
 	"xorm.io/xorm"
 
-	"gogs.io/gogs/internal/tool"
+	"github.com/savvi-ai/gogs/internal/tool"
 )
 
 type NoticeType int

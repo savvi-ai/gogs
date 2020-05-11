@@ -1,4 +1,4 @@
-module gogs.io/gogs
+module github.com/savvi-ai/gogs
 
 go 1.14
 
